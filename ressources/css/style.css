@@ -41,7 +41,7 @@ html {
 .header li a {
     text-decoration: none;
     color: #4a4a4a;
-}
+} 
 
 /* Banner */
 
@@ -51,8 +51,7 @@ html {
     justify-content: center;
     align-items: center;
     height: 50rem;
-    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/project-morocco/banner.jpg") 
-    center center no-repeat;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/project-morocco/banner.jpg") center center no-repeat;
     background-size: cover;
     color: #ffb78c;
 }
@@ -84,7 +83,7 @@ html {
 }
 
 .photo .image-container img {
-    width 100%;
+    width: 100%;
 }
 
 .photo .caption {
@@ -100,4 +99,58 @@ html {
 .journal p {
     padding-bottom: 2.77rem;
     font-size: 1.5rem;
+}
+
+.journal .first-letter {
+    float: left;
+    padding-right: 1.4rem;
+    font-family: "Abril Fatface", serif;
+    font-size: 7.44rem;
+    color: #10b0d8;
+}
+
+.quote {
+    display: block;
+    padding: 4.44rem 0;
+    margin-bottom: 3.33rem;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    text-align: center;
+    font-size: 3.55rem;
+    font-weight: 800;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 0 1%;
+    background-color: #212121;
+}
+
+footer .image-container {
+    width: 400px;
+}
+
+footer .content {
+    flex-grow: 1;
+    font-style: italic;
+    color: #9b9b9b;
+}
+
+footer p {
+    padding-bottom: 1.66rem;
+}
+
+footer p:last-child {
+    padding-bottom: 0;
+}
+
+footer .author {
+    color: #ffb78c;
+}
+
+footer em {
+    color: #cfcfcf;
 }
