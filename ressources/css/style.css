@@ -42,3 +42,62 @@ html {
     text-decoration: none;
     color: #4a4a4a;
 }
+
+/* Banner */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/project-morocco/banner.jpg") 
+    center center no-repeat;
+    background-size: cover;
+    color: #ffb78c;
+}
+
+.banner  h1 {
+    padding-top: 1.11rem;
+    font-size: 11rem;
+}
+
+/* Journal */
+
+.journal {
+    padding: 0 25% 4rem 25%;
+    background-color: rgba(254, 231, 218);
+    color: #4a4a4a;
+}
+
+.photo {
+    width: 75%; 
+    padding: 1.11rem;
+    border-radius: 5px;
+    margin: 0 auto 4.44rem auto;
+    background-color: white;
+}
+
+.photo .image-container {
+    overflow: hidden;
+    margin-bottom: 1.11rem;
+}
+
+.photo .image-container img {
+    width 100%;
+}
+
+.photo .caption {
+    font-style: italic;
+}
+
+.photo .first {
+    position: relative;
+    top: -2.77rem;
+    margin-bottom: 1.67rem;
+}
+
+.journal p {
+    padding-bottom: 2.77rem;
+    font-size: 1.5rem;
+}
