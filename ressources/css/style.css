@@ -29,7 +29,7 @@ html {
 }
 
 .header .logo {
-    flex-grow: 1;
+    flex-grow: O;
     color: #ffb78c;
 }
 
@@ -55,6 +55,14 @@ html {
     background-size: cover;
     color: #ffb78c;
 }
+
+.banner h2 {
+    padding: .55rem 0;
+    border-top: 4px solid #ffb78c;
+    border-bottom: 4px solid #ffb78c;
+    font-size: 1.44rem;
+    letter-spacing: 2px;
+  }
 
 .banner  h1 {
     padding-top: 1.11rem;
@@ -90,7 +98,7 @@ html {
     font-style: italic;
 }
 
-.photo .first {
+.photo.first {
     position: relative;
     top: -2.77rem;
     margin-bottom: 1.67rem;
